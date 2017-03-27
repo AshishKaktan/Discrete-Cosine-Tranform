@@ -1,1 +1,1 @@
-# Discrete-Cosine-Tranform
+# Discrete-Cosine-Transform
