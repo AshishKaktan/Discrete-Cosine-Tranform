@@ -12,9 +12,9 @@ class DCT{
 		c[0]=1/Math.sqrt(2.0);
 	}
 	
-	static int [][] img_dct(int [][]in){
+	static double [][] img_dct(double [][]in){
 		
-		int [][]result = new int[32][32];
+		double [][]result = new double[32][32];
 		init();
 		for(int u=0;u<32;u++){
 			for(int v=0;v<32;v++){
@@ -37,8 +37,8 @@ class DCT{
 		Random rand = new Random();	
 		int mean=0;
 		String hash="";
-		int [][] A = new int[32][32];
-		int [][] res = new int[32][32];
+		double [][] A = new double[32][32];
+		double [][] res = new double[32][32];
 		for(int i=0;i<32;i++){
 			for(int j=0;j<32;j++){
 				A[i][j] = rand.nextInt(255);
